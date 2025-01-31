@@ -19,7 +19,15 @@ export default function Home() {
         <div>
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
-                <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
+                <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-4">
+                    <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto mt-8 mb-24">
+                        <Image
+                            src={"/vbusiness.png"}
+                            alt="V Business"
+                            fill={true}
+                            className="object-contain glowfilter object-bottom md:object-center"
+                        />
+                    </div>
                     <div className="">
                         <div className=" relative">
                             <video-js
@@ -27,7 +35,7 @@ export default function Home() {
                                 data-player="hXGs3fyvO"
                                 data-embed="default"
                                 controls=""
-                                data-video-id="6366454864112"
+                                data-video-id="6368031958112"
                                 data-application-id=""
                                 width="960"
                                 height="420"
@@ -51,47 +59,51 @@ export default function Home() {
 
                     <iframe
                         id="interprefyiFrame"
-                        src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
+                        src="https://interprefy.interpret.world/loginlink?token=VBP2025&caption=true"
                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
-                    <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
-                        <Image
-                            src={"/mylifestorytime.png"}
-                            alt="My Life Story Time"
-                            fill={true}
-                            className="object-contain"
-                        />
-                    </div>
-                    <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
+                    <p className="px-4 md:px-0 py-3 md:py-6 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
-                        Every journey begins with a decision—it all starts here.{" "}
-                        <span className="text-[#d0f600] font-bold font-avheavy">My Life My Story My Time </span>
-                        is about the courage to embrace who you are, take ownership of your story, and create your
-                        perfect moment instead of waiting for it.
+                        You have the power to change your life. The question is: where do you start?
                     </p>
-                    <h3 className="text-xl md:text-4xl py-4 text-[#00fbae] text-center font-bold font-avheavy">
-                        Your time is now, what are you waiting for?
+                    <p className="px-4 md:px-0 py-3 md:py-6 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
+                        Start here with <span className="font-bold">V Business Presentation!</span> This is the right
+                        place for you to discover the world of network marketing and explore its unlimited
+                        possibilities-The V
+                    </p>
+                    <h3 className="text-2xl md:text-5xl py-4 text-[#FFDE00] text-center font-bold font-avheavy">
+                        Let{"'"}s unleash your limitless potential!
                     </h3>
                     <h4 className="text-center font-bold mt-32 text-xl md:text-3xl font-avheavy">
                         Follow us and tag us on social:
                     </h4>
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
-                        <Link href="https://www.facebook.com/@thevofficial" target="_blank">
+                        <Link
+                            href="https://www.facebook.com/@thevofficial"
+                            className="flex items-center justify-center space-x-4"
+                            target="_blank"
+                        >
                             <FaFacebook className="text-lg md:text-3xl" />
+                            <span className="italic text-lg md:text-3xl">@thevofficial</span>
                         </Link>
                         <Link href="https://x.com/thev_official" target="_blank">
                             <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "}
                         </Link>
-                        <Link href="https://www.instagram.com/thev_official/" target="_blank">
+                        <Link
+                            href="https://www.instagram.com/thev_official/"
+                            className="flex items-center justify-center space-x-4"
+                            target="_blank"
+                        >
                             <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
+                            <span className="italic  text-lg md:text-3xl">@thev_official</span>
                         </Link>{" "}
                     </div>
                     <h2 className="font-bold font-avheavy text-center text-xl sm:text-2xl md:text-4xl py-4">
-                        #MyLifeMyStoryMyTime
+                        #VBP2025
                     </h2>
                 </section>
 

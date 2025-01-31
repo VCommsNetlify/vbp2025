@@ -77,7 +77,11 @@ html {
 }
 
 .bg-main {
-    background: url("/MLSTBG.png") no-repeat;
+    background: url("/vbp25bg.png") no-repeat;
     background-size: cover;
     background-position: center;
+}
+.glowfilter {
+    -webkit-filter: drop-shadow(12px 12px 12px rgba(255, 255, 255, 0.15));
+    filter: drop-shadow(12px 12px 12px rgba(255, 255, 255, 0.15));
 }
