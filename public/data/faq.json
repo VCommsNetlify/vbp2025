@@ -1,0 +1,18 @@
+[
+    {
+        "question": " The video isn’t loading.",
+        "answer": "<ol><li class='translate' data-key='faqs-list-1-1'>Check your current internet speed. You need at least 20 Mbps for a smooth viewing experience. Make sure you have a stable internet connection to be able to watch the live broadcast.</li></ol>"
+    },
+    {
+        "question": "I can’t hear the audio.",
+        "answer": "<ol><li class='translate' data-key='faqs-list-1-2'>Click on the video. At the lower left of the screen, you can find the speaker/sound button beside the word LIVE. Click on the icon and make sure that audio is turned on.</li></ol>"
+    },
+    {
+        "question": "There is no translation.",
+        "answer": "<ol> <li class='translate' data-key='faqs-list-1-3'>Click on the orange bar below the video screen which reads “Press the image to see Translation”. Click on the drop down menu and select the language you prefer. Click CONNECT.</li> </ol>"
+    },
+    {
+        "question": "Can I rewind the video?",
+        "answer": "<ol> <li class='translate' data-key='faqs-list-4-1'>No. The event is broadcasted LIVE so make sure to stay tuned for the entire day so you don’t miss out on any of our guest speakers!</li> </ol>"
+    }
+]

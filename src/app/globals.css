@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.faqs-accordion {
+    @apply px-4 py-6;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    align-items: baseline;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.faqs-accordion.span {
+    width: 50%;
+}
+
+.active-accordion,
+.faqs-accordion:after {
+    content: "\25ba"; /*"plus" sign (+) */
+    float: right;
+    margin-left: 5px;
+}
+
+.faqs-accordion.active:after {
+    content: "\25bc"; /*"minus" sign (-) */
+}
+
+.faqs-panel {
+    @apply px-4 py-6;
+    display: none;
+    overflow: hidden;
+}
+
+.faqs-panel a {
+    text-decoration: none;
+    color: #038ce4;
+}
+
+@layer base {
+    @font-face {
+        font-family: "Avenir";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/AvenirRegular.ttf) format("ttf");
+    }
+
+    @font-face {
+        font-family: "Bison";
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts/Bison_Bold.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: "AvenirHeavy";
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts/AvenirHeavy.ttf) format("ttf");
+    }
+}
+
+html {
+    font-family: "Avenir", sans-serif;
+}
+
+.font-bison {
+    font-family: "Bison", sans-serif;
+}
+
+.font-avheavy {
+    font-family: "AvenirHeavy", sans-serif;
+}
+
+.bg-main {
+    background: url("/MLSTBG.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
