@@ -59,7 +59,7 @@ export default function Home() {
 
                     <iframe
                         id="interprefyiFrame"
-                        src="https://interprefy.interpret.world/loginlink?token=VBP2025&caption=true"
+                        src="https://interprefy.interpret.world/loginlink?token=VBP-2025&caption=true"
                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
