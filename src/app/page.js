@@ -17,7 +17,7 @@ export default function Home() {
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-4">
-                    <div className="w-4/5 md:w-full h-24 relative mx-auto md:mt-0 mb-8 ">
+                    <div className="w-4/5 md:w-full h-32 relative mx-auto md:mt-0 mb-8 ">
                         <Image
                             src={"/vbusiness.png"}
                             alt="V Business"
