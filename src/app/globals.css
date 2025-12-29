@@ -62,6 +62,13 @@
         font-display: swap;
         src: url(/fonts/AvenirHeavy.ttf) format("ttf");
     }
+
+            @font-face {
+        font-family: "ArticulatCF";
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts/ArticulatCFNormal.ttf) format("ttf");
+    }
 }
 
 html {
@@ -76,10 +83,23 @@ html {
     font-family: "AvenirHeavy", sans-serif;
 }
 
+.font-articulat {
+    font-family: "ArticulatCF", sans-serif;
+}
+
 .bg-main {
-    background: url("/vbp25bg.png") no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5)), url("/ignite-microsite-BG.png");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+
+@media (min-width: 768px) {
+    .bg-main {
+        background-size: cover;
+    }
 }
 .glowfilter {
     -webkit-filter: drop-shadow(12px 12px 12px rgba(255, 255, 255, 0.15));
