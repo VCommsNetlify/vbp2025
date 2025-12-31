@@ -25,7 +25,7 @@ export default function Home() {
                                 data-player="hXGs3fyvO"
                                 data-embed="default"
                                 controls=""
-                                data-video-id="6369852980112"
+                                data-video-id="6387092483112"
                                 data-application-id=""
                                 width="960"
                                 height="360"
@@ -49,7 +49,7 @@ export default function Home() {
 
                     <iframe
                         id="interprefyiFrame"
-                        src="https://interprefy.interpret.world/loginlink?token=VBP-2025&caption=true"
+                        src="https://interpret.world/integrationlink?token=TheV2026&audio=true&captions=true"
                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
