@@ -10,14 +10,15 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={` antialiased`}>
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CX4WJMZ8ZQ"></Script>
-                <Script
-                    id="google-tag-manager"
-                    strategy="beforeInteractive"
-                >{`window.dataLayer = window.dataLayer || []; 
-                function gtag(){dataLayer.push(arguments);} 
-                gtag('js', new Date()); 
-                gtag('config', 'G-CX4WJMZ8ZQ');`}</Script>
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-CX4WJMZ8ZQ" />
+                    <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-CX4WJMZ8ZQ');
+                    `}
+                    </Script>
                 {children}
                 <Script
                     src="https://players.brightcove.net/3745659807001/hXGs3fyvO_default/index.min.js"
