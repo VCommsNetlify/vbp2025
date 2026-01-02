@@ -25,7 +25,7 @@ export default function Home() {
                                 data-player="hXGs3fyvO"
                                 data-embed="default"
                                 controls=""
-                                data-video-id="6387092483112"
+                                data-video-id="6387156940112"
                                 data-application-id=""
                                 width="960"
                                 height="360"
